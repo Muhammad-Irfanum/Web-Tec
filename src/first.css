@@ -1,0 +1,128 @@
+body {
+  margin: 0%;
+}
+/*header section*/
+
+.main {
+  width: 101%;
+  height: 60px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  /* border: 2px solid blue; */
+}
+
+.logo {
+  width: 40%;
+  height: 60px;
+  background-color: rgb(122, 77, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.menu {
+  width: 80%;
+  height: 60px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 20px;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  cursor: pointer;
+  color: crimson;
+}
+
+/* home section */
+#home {
+  width: 100%;
+  height: 90vh;
+  border: solid;
+  background-image: url(./image/p2.jpeg);
+  background-repeat: no-repeat;
+  background-position: right 30%;
+  background-size: 50%;
+  background-attachment: scroll;
+  background-position-y: 20%;
+  top: -2px;
+  position: relative;
+  z-index: 2;
+  background-color: antiquewhite;
+}
+
+#detail-btn {
+  border: 2px solid red;
+  letter-spacing: 6px;
+  transition: all 0.5 ease-in-out;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  margin-left: -69px;
+  margin-top: -10px;
+}
+
+#detail-btn:hover {
+  background-color: red;
+  cursor: pointer;
+  transition: 0.8s;
+  color: #ffffff;
+  box-shadow: 2px 3px 5px #88888888;
+}
+span {
+  color: red;
+}
+
+.design-circle {
+  border-radius: 5%;
+
+  width: 47%;
+  height: 40%;
+  margin-left: 13px;
+  margin-top: 0px;
+
+  position: relative;
+  box-shadow: 0 0 3rem #df0707 solid;
+  text-align: center;
+  font-size: 15px;
+}
+
+.table {
+  height: 48vh;
+  width: 49%;
+}
+table {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border-spacing: 10px;
+}
+
+td button {
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+}
+td button:hover {
+  background-color: red;
+  cursor: pointer;
+  color: #ffffff;
+  transition: 1s;
+  box-shadow: 10px 10px 15px #888888;
+}

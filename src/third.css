@@ -1,0 +1,152 @@
+body {
+  margin: 0%;
+  background-color: antiquewhite;
+}
+
+/*header section*/
+
+.main {
+  width: 101%;
+  height: 60px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+ 
+}
+
+.logo {
+  width: 40%;
+  height: 60px;
+  background-color: rgb(122, 77, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.menu {
+  width: 80%;
+  height: 60px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 20px;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  cursor: pointer;
+  color: crimson;
+}
+ /* project */
+
+#project > h1 {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+
+}
+span{
+  color: red;
+}
+
+.main-sec {
+  width: 80%;
+  height: 50vh;
+  display: flex;
+
+}
+
+.project-one {
+  width: 50%;
+  color: #ffffff;
+  height: 60vh;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+.project-pic1 {
+  width: 50%;
+  height: 60vh;
+  background-color: darkgray;
+  background-image: url('./image/p1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #232020b3;
+  background-blend-mode: darken;
+}
+
+.project-pic2 {
+  width: 50%;
+  height: 60vh;
+  background-color: darkgray;
+  background-image: url('./image/graphic.jfif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #232020b3;
+  background-blend-mode: darken;
+}
+
+.project-pic3 {
+  width: 50%;
+  height: 60vh;
+  background-color: darkgray;
+  background-image: url('./image/istockphoto-1071652068-170667a.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #232020b3;
+  background-blend-mode: darken;
+}
+
+.project-pic4 {
+  width: 50%;
+  height: 60vh;
+  
+  background-color: darkgray;
+  background-image: url('./image/p4.jfif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #232020b3;
+  background-blend-mode: darken;
+}
+/* Center the .main-wrapper */
+.main-sec {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.project-one > p,
+h1 {
+  padding-left: 10px;
+}
+
+.main-sec {
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.project-one,
+.project-pic1,
+.project-pic2,
+.project-pic3,
+.project-pic4 {
+  border-radius: 10px;
+  box-shadow: 5px 8px 15px 15px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,144 @@
+body{
+    margin: 0%;
+    background-color: antiquewhite;
+}
+.main {
+    width: 101%;
+    height: 60px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+   
+  }
+  
+  .logo {
+    width: 40%;
+    height: 60px;
+    background-color: rgb(122, 77, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #ffffff;
+  }
+  
+  .menu {
+    width: 80%;
+    height: 60px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 20px;
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    cursor: pointer;
+    color: crimson;
+  }
+
+  /* form  */
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+.heading{
+    /* position: relative; */
+    color: black;
+    text-align: center;
+}
+#form{
+    height: 100vh;
+    /* padding: 10rem 9% 2rem; */
+    color: var(--text-color)
+}
+
+.contact h2 {
+    margin-bottom: 2rem;
+}
+
+.contact form {
+    max-width: 50rem;
+    margin: 1rem auto;
+    text-align: center;
+    /* margin-bottom: 3rem; */
+    position: relative;
+    left: 1%;
+
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 94%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+    
+}
+
+.contact form textarea {
+    height: 80px;
+}
+
+.contact form .input-box input {
+    width: 49%;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+span{
+    color: red;
+}
+.btn{
+  width: 300px;
+  padding: 20px;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 2px;
+  background-color: whitesmoke;
+  border: solid red;
+  transition: all;
+  margin-top: 35%; 
+  margin-left: 25px;
+  box-shadow: 3px 5px 7px #888888;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    transition: all 0.7s ease-in-out;
+    color: #ffffff;
+  }
